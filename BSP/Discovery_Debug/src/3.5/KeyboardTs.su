@@ -1,0 +1,2 @@
+../src/3.5/KeyboardTs.cxx:7:1:KeyboardTs::KeyboardTs(unsigned char)	24	static
+../src/3.5/KeyboardTs.cxx:17:20:KeyboardState KeyboardTs::eRead()	16	static

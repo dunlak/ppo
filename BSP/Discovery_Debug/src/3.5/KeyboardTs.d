@@ -1,4 +1,6 @@
-src/main.o: ../src/main.cxx \
+src/3.5/KeyboardTs.o: ../src/3.5/KeyboardTs.cxx ../src/3.5/KeyboardTs.h \
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h \
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/User/stm32f4xx_hal_conf.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -31,17 +33,17 @@ src/main.o: ../src/main.cxx \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h \
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h \
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h \
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/Utilities/Fonts/fonts.h \
  C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/ili9341.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/../Common/lcd.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h \
- C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h
+ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/../Common/lcd.h
+../src/3.5/KeyboardTs.h:
+C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h:
+C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/User/stm32f4xx_hal_conf.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -74,14 +76,11 @@ C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driv
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h:
+C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h:
+C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h:
+C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_lcd.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_sdram.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/Utilities/Fonts/fonts.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/ili9341.h:
 C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/ili9341/../Common/lcd.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/stm32f429i_discovery_ts.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/stmpe811.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/ts.h:
-C:/Users/artsa/Desktop/SEM\ 4/PPO/DISCOVERY/DISCO/BSP/Drivers/BSP/STM32F429I-Discovery/../Components/stmpe811/../Common/io.h:

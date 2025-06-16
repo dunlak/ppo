@@ -48,5 +48,6 @@ Drivers/STM32F4xx_HAL_Driver/Src \
 Drivers/Startup \
 Drivers/User \
 Drivers \
-src \
+src/3.5 \
+src/3.4 \
 

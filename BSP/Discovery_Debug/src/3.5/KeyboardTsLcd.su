@@ -1,0 +1,2 @@
+../src/3.5/KeyboardTsLcd.cxx:3:1:KeyboardTsLcd::KeyboardTsLcd(unsigned char)	24	static
+../src/3.5/KeyboardTsLcd.cxx:9:20:KeyboardState KeyboardTsLcd::eRead()	24	static

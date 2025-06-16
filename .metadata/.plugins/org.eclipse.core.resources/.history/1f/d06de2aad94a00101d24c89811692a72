@@ -1,0 +1,44 @@
+#include <stm32f4xx_hal.h>
+#include <stm32f429i_discovery.h>
+#include <stm32f429i_discovery_lcd.h>
+#include <stm32f429i_discovery_ts.h>
+#include <cstdio>
+
+void drawFilledRect(uint32_t uiRectColor, unsigned char ucPosY) {
+	char cCharBuffer[4];
+	BSP_LCD_SetTextColor(uiRectColor);
+	BSP_LCD_FillRect(0, ucPosY * 80, 80, 80);
+	BSP_LCD_SetTextColor(LCD_COLOR_GREEN);
+	BSP_LCD_DrawRect(0, ucPosY * 80, 80, 80);
+	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+	BSP_LCD_SetBackColor(LCD_COLOR_RED);
+	sprintf(cCharBuffer, "%d", ucPosY + 1);
+	BSP_LCD_DisplayStringAt(0, ucPosY * 80, (uint8_t*)cCharBuffer, LEFT_MODE);
+
+}
+
+int main(void)
+{
+	BSP_LED_Init(LED4);
+	BSP_LCD_Init();
+	BSP_TS_Init(BSP_LCD_GetXSize(), BSP_LCD_GetYSize());
+
+
+	TS_StateTypeDef TsState;
+
+	while (true) {
+
+		BSP_TS_GetState(&TsState);
+
+		for(unsigned char ucCounter = 0; ucCounter < 4; ucCounter++) {
+			drawFilledRect(LCD_COLOR_BLUE, ucCounter);
+			if(TsState.TouchDetected) {
+				if(TsState.X <= 80 && TsState.Y >= ucCounter * 80 && TsState.Y <= ucCounter * 80 + 80) {
+					drawFilledRect(LCD_COLOR_GREEN, ucCounter);
+				}
+			}
+		}
+
+		HAL_Delay(100);
+	}
+}
